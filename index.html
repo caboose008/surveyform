@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+	<title>freeCodecamp - Survey From project</title>
+
+</head>
+<body>
+	
+		<h1 id="title">Survey Form</h1>
+	<div class="main">
+		<p id="description">Let us know how we can improve freeCodeCamp</p>
+		<form id="survey-form">
+			<div class="block">
+				<label id="name-label">* Name:</label>
+				<input class="inputColumn" type="text" name="name" id="name" required placeholder="Please enter your full name">
+			</div>
+			<div class="block">
+				<label id="email-label">* email:</label>
+				<input class="inputColumn" type="email" name="email"  id="email" required placeholder="Please enter your email">
+			</div>
+			<div class="block">
+				<label id="number-label">* Age:</label>
+				<input class="inputColumn" type="number" name="" id="number" min="0" max="99" required placeholder="Please enter your age">
+			</div>
+			<div class="block">
+				<label>Which option best describes your current role?</label>
+				<select id="dropdown" class="inputColumn">
+					<option value="" disabled selected>Select your option</option>
+					<option>Student</option>
+					<option>Full Time Job</option>
+					<option>Full Time Learner</option>
+					<option>Perfer not to say</option>
+					<option>Other</option>
+				</select>
+			</div>
+			<div class="block">
+				<label id="recommend">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+				<div  >
+					<input type="radio" name="recommend" required value="Definitely">Definitely<br>
+					<input type="radio" name="recommend" required value="Maybe">Maybe<br>
+					<input type="radio" name="recommend" required value="Not sure">Not sure<br>
+				</div>
+			</div>
+			<div class="block">
+				<label id="options">Things that should be improved in the future (Check all that apply):</label>
+				<div>
+					<input type="checkbox" name="options" required value="Front-end Projects">Front-end Projects<br>
+					<input type="checkbox" name="options" required value="Back-end Projects">Back-end Projects<br>
+					<input type="checkbox" name="options" required value="City Meetups">City Meetups<br>
+				</div>
+			</div>
+			<div class="block">
+				<label id="freeText">Any Comments or Suggestions?</label>
+				<textarea class="inputColumn" placeholder="Enter your comment here..."></textarea>
+			</div>
+
+			<div class="button">
+				<input type="submit" name="Submit" id="submit">
+			</div>
+		</form>
+	</div>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

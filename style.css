@@ -1,0 +1,76 @@
+body{
+	color: #2a2222;
+	background-color: #e6e6e6;
+	font-family: 'Nanum Gothic', sans-serif;
+	display: grid;
+	
+}
+.main {
+	width: 70%;
+	justify-self: center;
+	display: block;
+	
+}
+#title{
+
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	font-weight: 700;
+	display: block;
+}
+
+#description{
+	display: block;
+	position: relative;
+	text-align: center;
+	/*border-style: solid;
+	border-color: blue;
+	border-width: 2px;*/
+}
+
+#survey-form{
+	
+	background-color: white;	
+
+	/*border-style: solid;
+	border-color: blue;
+	border-width: 2px;*/
+}
+.block{
+	padding: 10px 20px 20px 10px;
+	display: grid;
+	grid-gap: 20px;
+	flex-wrap: wrap;
+	grid-template-columns: 1fr 1fr;
+	/*border-style: solid;
+	border-color: blue;
+	border-width: 2px;*/
+	/*grid-template-areas: "label input";*/
+	/*grid-tempalte: 45% 45%;*/
+}
+input{
+	
+}
+label{
+	justify-self: right;
+}
+
+.inputColumn{
+	width: 200px;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-radius: 5%;
+	border-width: 1px;	
+	height: 25px;	
+
+}
+
+.button{
+	display: grid;
+	grid-template-areas: "button"	
+	width: 50px;
+	height: 25px;
+}
+#submit{
+	justify-self: center;
+}
